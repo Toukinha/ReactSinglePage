@@ -1,4 +1,6 @@
 import React from 'react';
+import sobre1 from '../img/sobre1.jpg';
+import sobre2 from '../img/sobre2.jpg';
 
 export default function Sobre() {
   return (
@@ -11,6 +13,12 @@ export default function Sobre() {
           afeta positivamente a correta previsão das
           condições inegavelmente apropriadas objetivos.
         </p>
+      </div>
+      <div className="sobre-img">
+        <img src={ sobre1 } alt="sobre 1" />
+      </div>
+      <div className="sobre-img">
+        <img src={ sobre2 } alt="sobre 2" />
       </div>
     </section>
   );
