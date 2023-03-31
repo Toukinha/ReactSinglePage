@@ -19,7 +19,7 @@ function App() {
       <Produtos />
       <Prices />
       <Qualidade />
-      <Newsletter />
+      {/* <Newsletter /> */}
       <Footer />
     </>
   );

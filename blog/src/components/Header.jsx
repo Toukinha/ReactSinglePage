@@ -7,7 +7,7 @@ export default function Header() {
         <div className="menu-logo">
           <a href="a">ToukaBlog</a>
         </div>
-        <nav>
+        <nav className="menu-nav">
           <ul>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#produtos">Produtos</a></li>

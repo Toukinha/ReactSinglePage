@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function Titile() {
   return (
-    <h1 className="intro">Novos Valores e Propriedades CSS</h1>
+    <h1 className="introducao">Novos Valores e Propriedades CSS</h1>
   );
 }
